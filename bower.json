@@ -1,8 +1,8 @@
 {
-  "name": "litecore",
-  "main": "./litecore.min.js",
+  "name": "khcore",
+  "main": "./khcore.min.js",
   "version": "0.13.5",
-  "homepage": "http://litecore.io",
+  "homepage": "http://khcore.inmean.com",
   "authors": [
     "BitPay, Inc."
   ],
@@ -11,9 +11,9 @@
     "globals"
   ],
   "keywords": [
-    "litecoin",
-    "litecore",
-    "ltc",
+    "khcoin",
+    "khcore",
+    "khc",
     "satoshi"
   ],
   "license": "MIT",

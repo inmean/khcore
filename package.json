@@ -1,5 +1,5 @@
 {
-  "name": "litecore",
+  "name": "khcore",
   "version": "4.1.10",
   "description": "A platform to build bitcoin and blockchain-based applications.",
   "author": "BitPay <dev@bitpay.com>",
@@ -9,10 +9,14 @@
     "build-deb": "./scripts/build-deb"
   },
   "bin": {
-    "litecore": "./bin/litecore",
-    "litecored": "./bin/litecored"
+    "khcore": "./bin/khcore",
+    "khcored": "./bin/khcored"
   },
   "contributors": [
+    {
+      "name": "In Mean",
+      "email": "inmean@khmercrypto.com"
+    },
     {
       "name": "Charlie Lee",
       "email": "coblee@litecoin.org"
@@ -67,7 +71,7 @@
     }
   ],
   "keywords": [
-    "litecoin",
+    "khcoin",
     "transaction",
     "address",
     "p2p",
@@ -84,14 +88,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/litecoin-project/litecore.git"
+    "url": "https://github.com/inmean/khcore.git"
   },
   "browser": {
     "request": "browser-request"
   },
   "dependencies": {
-    "litecore-lib": "^0.13.22",
-    "litecore-node": "^3.1.11",
+    "khcore-lib": "^0.13.22",
+    "khcore-node": "^3.1.11",
     "insight-lite-api": "^0.4.4",
     "insight-lite-ui": "^0.4.2"
   },

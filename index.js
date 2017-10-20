@@ -1,5 +1,5 @@
 'use strict';
 
-var litecore = require('litecore-lib');
+var khcore = require('khcore-lib');
 
-module.exports = litecore;
+module.exports = khcore;
